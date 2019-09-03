@@ -118,7 +118,33 @@
     "text29":"Step 1. Click 'Settings' --> 'General'",
     "text30":"Step 2. Click 'General' --> 'Device Management'",
     "text31":"Step 3. Choose “Changzhou Jianfeng Software D...” -->Click “Trust”",
-    "text32":"Back"
+    "text32":"Back",
+
+    "a-text0":"Dear CryptoGalaxy explorers",
+    "a-text1":"CryptoGalaxy 2.1.4. is now live and ready for download.",
+    "a-text2":"Download new version here https://cryptogalaxy.one",
+    "a-text3":"Whats new?",
+    "a-text4":"1、Added exploration special effect for spaceship launch and improved UI",
+    "a-text5":"2、added Covernant Flying Object model for launching golden exploration cards",
+    "a-text6":"3、Added special effect to robot digging ",
+    "a-text7":"4、Added mineral upgrade system at “Metallugy”. You can now upgrade minimum 20 and max 500 minerals to more rare minerals with synthesis coupons that you can purchase at DEX. Glore to Beryl (free), Beryl to Sapphire (one coupon), Sapphire to Gold (one coupon)",
+    "a-text8":"5、Added Galachat - world chatting system. You can now text with other explorers! ( items like stickers, emoji, background will be updated in the later versions)",
+    "a-text9":"6、New items released at DEX store.",
+    "a-text10":"Blue mine synthesis card",
+    "a-text11":"Gold mine synthesis card",
+    "a-text13":"Planetary Gift Pack (30 first)" ,
+    "a-text16":"Golden Discovery Card (limited to 3 days special)",
+    "a-text17":"What was fixed in this version:",
+    "a-text18":"1、fixed the time mechanism issue of announcement at the main screen ",
+    "a-text19":"2、fixed the visual bug for not showing full infor during exploration ",
+    "a-text20":"3、fixed the bug of unusual data for digging the minerals",
+    "a-text21":"We need to remind every user to back up and store your keystore and private keys offline as any unexpected loss of them after the shut will not be restored.",
+    "a-text22":"For more information, bug reports or other issues, feel free to ask in the group or send a pm to one of our admins. Make sure to check the handle of the admins to avoid getting scammed.",
+    "a-text23":"Official admins:",
+    "a-text24":"@AnzeZeepin",
+    "a-text25":"@JoaZeepin",
+    "a-text26":"@tompaCro",
+    "a-text27":"@Crono180"
 
   }
 }

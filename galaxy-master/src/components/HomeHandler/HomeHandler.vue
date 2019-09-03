@@ -15,6 +15,12 @@
     <Footer @setMenu="setMenu"/>
     <!---->
     <AndroidDownload v-if="isDownload" @openAndroid="openAndroid"/>
+
+    <!--公告-->
+    <transition name="fade">
+      <Announcement v-if="isAnnouncement" @closeAnnouncement="closeAnnouncement"/>
+    </transition>
+  
   </div>
 
 </template>
@@ -46,12 +52,15 @@ import AboutCG from "./modules/aboutCG";
 import Introduction from "./modules/introduction";
 //安卓下载
 import AndroidDownload from "./modules/AndroidDownload";
+//公告
+import Announcement from "./modules/Announcement";
 export default {
   name: "home",
   data(){
     return{
       menuIndex:1, //1:home  2: about CG 3:market place  4:community 5:introduction
       isDownload:false,
+      isAnnouncement:false,
     }
   },
   components: {
@@ -68,7 +77,8 @@ export default {
     MarketPlace,
     AboutCG,
     Introduction,
-    AndroidDownload
+    AndroidDownload,
+    Announcement
   },
   /* beforeRouteEnter(to, from, next) {
     let router = getQuery('router');
@@ -78,12 +88,20 @@ export default {
       next();
     }
   }, */
+  created(){
+    setTimeout(()=>{
+      this.closeAnnouncement();
+    },1000)
+  },
   methods:{
     setMenu(index){
       this.menuIndex = index;
     },
     openAndroid(blo){
       this.isDownload = blo;
+    },
+    closeAnnouncement(){
+      this.isAnnouncement = !this.isAnnouncement;
     }
   }
 };
@@ -96,3 +114,12 @@ function getQuery(key) {
 }
 
 </script>
+
+<style >
+  .fade-enter-active, .fade-leave-active {
+  transition: opacity 1s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+</style>
