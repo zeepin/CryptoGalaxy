@@ -13,14 +13,14 @@
             <p>{{$t("marketPlace.a-text7")}}</p>
             <p>{{$t("marketPlace.a-text8")}}</p>
             <p>{{$t("marketPlace.a-text9")}}</p>
-            <div class="list">
+      <!--       <div class="list">
                 <ul>
                     <li>{{$t("marketPlace.a-text10")}}</li>
                     <li>{{$t("marketPlace.a-text11")}}</li>
                     <li>{{$t("marketPlace.a-text13")}}</li>
                     <li>{{$t("marketPlace.a-text16")}}</li>
                 </ul>
-            </div>
+            </div> -->
             <h2>{{$t("marketPlace.a-text17")}}</h2>
             <p>{{$t("marketPlace.a-text18")}}</p>
             <p>{{$t("marketPlace.a-text19")}}</p>
