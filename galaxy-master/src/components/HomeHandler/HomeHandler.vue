@@ -101,7 +101,7 @@ export default {
       this.isDownload = blo;
     },
     closeAnnouncement(){
-      this.isAnnouncement = !this.isAnnouncement;
+      this.isAnnouncement = !this.isAnnouncement
     }
   }
 };
